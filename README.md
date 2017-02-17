@@ -1,2 +1,2 @@
 # Go_Training
-Learning how to program using Go-lang
+Learning the Go-lang programming language.
