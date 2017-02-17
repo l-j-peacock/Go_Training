@@ -1,0 +1,14 @@
+*.exe
+*.test
+*.prof
+
+# WebStorm / Gogland
+*.iml
+
+# Directory-based Project Format:
+.idea/
+.idea/workspace.xml
+**/.idea/workspace.xml
+
+# Mac Hidden Files
+.DS_Store
