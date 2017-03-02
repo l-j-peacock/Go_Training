@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/l-j-peacock/Go_Training/02_packages/stringutil"
 	"github.com/l-j-peacock/Go_Training/02_packages/icomefromalaska"
+	"github.com/l-j-peacock/Go_Training/02_packages/stringutil"
 )
 
 func main() {

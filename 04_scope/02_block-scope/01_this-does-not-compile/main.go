@@ -13,5 +13,3 @@ func foo() {
 	// This will not compile
 	fmt.Println(x)
 }
-
-
