@@ -1,0 +1,8 @@
+Use https://godoc.org/sort to solve the following:
+
+(1)
+type people []string
+studyGroup := people{"Zeno", "John", "Al", "Jenny"}
+
+(2)
+s := []string{"Zeno", "John", "Al", "Jenny"}
