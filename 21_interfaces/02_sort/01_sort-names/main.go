@@ -5,18 +5,31 @@ import (
 	"sort"
 )
 
-type person struct {
-	name string
-}
+type people []string
 
-type people interface {
-
-}
-
-func (p person) getName() string {
-	return p.name
+func sortNames(p []string) []string {
+	sort.Strings(p)
+	return p
 }
 
 func main() {
-
+	studyGroup := people{"Zeno", "John", "Al", "Jenny"}
+	fmt.Println(sortNames(studyGroup))
 }
+
+/* Other solution included here is:
+
+type people []string
+
+func (p people) Len() int		{ return len(p) }
+func (p people) Swap(i, j int)		{ p[i], p[j] = p [j], p[i] }
+func (p people) Less(i, j int) bool	{ return p[i] < p[j] }
+
+func main() {
+	studyGroup := people{"Zeno", "John", "Al", "Jenny"}
+
+	fmt.Println(studyGroup)
+	sort.Sort(studyGroup)
+	fmt.Println(studyGroup)
+}
+ */
